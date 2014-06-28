@@ -2,7 +2,7 @@
 
 1. Clone the repository recursively:
 
-        git clone --recursive https://github.com/martxel/dotfiles ~/dotfiles
+        git clone --recursive git@github.com:ifdm001/dotfiles.git ~/dotfiles
 
 2. Change directory to `dotfiles` and run the installation script:
 
