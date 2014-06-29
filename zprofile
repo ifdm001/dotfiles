@@ -26,7 +26,7 @@ export PAGER='less'
 #
 
 if [[ -z "$LANG" ]]; then
-  export LANG='es_ES.UTF-8'
+  export LANG='en_US.UTF-8'
 fi
 
 #
@@ -48,7 +48,7 @@ export TERM=xterm-256color
 [ -n "$TMUX" ] && export TERM=screen-256color
 
 # Go
-export GOPATH=$HOME/go
+export GOPATH=$HOME/Projects/go
 
 # Set the list of directories that Zsh searches for programs.
 path=(
@@ -71,6 +71,14 @@ export LESS='-F -g -i -M -R -S -w -X -z-4'
 if (( $+commands[lesspipe.sh] )); then
   export LESSOPEN='| /usr/bin/env lesspipe.sh %s 2>&-'
 fi
+
+# colors for ls
+ if [[ -f ~/.dir_colors ]] ; then
+     eval $(dircolors -b ~/.dir_colors)
+ elif [[ -f /etc/DIR_COLORS ]] ; then
+     eval $(dircolors -b /etc/DIR_COLORS)
+ fi
+#
 
 #
 # Temporary Files
