@@ -28,7 +28,7 @@ DIR                   38;5;30
 DOOR                  38;5;127
 EXEC                  38;5;166;1
 FIFO                  38;5;126
-FILE                  38;5;23
+FILE                  38;5;74
 LINK                  target
 MULTIHARDLINK         38;5;220;1
 # "NORMAL don't reset the bold attribute -
