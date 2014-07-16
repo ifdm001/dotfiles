@@ -3,7 +3,8 @@
 	email = ifdm.imanol@gmail.com
 [core]
 	editor = vim
-	excludesfile = ~/.gitignore
+        excludesfile = ~/.gitignore
+        whitespace = trailing-space,space-before-tab,indent-with-non-tab
 [merge]
 	tool = vimdiff
 [color]
