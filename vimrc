@@ -111,7 +111,7 @@ set showcmd
 set cmdheight=2
 
 " Highlight current line
-set cursorline
+" set cursorline
 
 " Cursor lines when moving vertically
 set scrolloff=10
