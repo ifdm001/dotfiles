@@ -65,11 +65,6 @@ call LoadVundle()
 " Autoread changes
 set autoread
 
-" Map leader
-nnoremap <space> <NOP>
-let mapleader = ' '
-let g:mapleader = ' '
-
 " Syntax highlighting
 syntax enable
 set background=light
@@ -156,7 +151,7 @@ autocmd FileType go setlocal shiftwidth=2 tabstop=2 noexpandtab
 autocmd FileType snippets setlocal shiftwidth=2 tabstop=2 noexpandtab
 
 " Display extra whitespace
-set listchars=tab:»·,trail:·
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set list
 
 " Backspace
