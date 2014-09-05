@@ -70,16 +70,6 @@ nnoremap <space> <NOP>
 let mapleader = ' '
 let g:mapleader = ' '
 
-" Window movement
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-map <Esc>[B <Down>
-" Search
-" map <space> /
-" map <c-space> ?
-
 " Syntax highlighting
 syntax enable
 set background=light
@@ -89,11 +79,11 @@ set background=light
 set laststatus=2
 
 " Line numbers
-set number
+"set number
 "set relativenumber
 "autocmd InsertEnter * :set norelativenumber
 "autocmd InsertLeave * :set relativenumber
-set numberwidth=3
+"set numberwidth=3
 
 " Show current position
 set ruler
@@ -212,10 +202,10 @@ endtry
 set viminfo^=%
 
 " Return to last edit position when opening files
-autocmd BufReadPost *
-  \ if line("'\"") > 0 && line("'\"") <= line("$") |
-  \   exe "normal! g`\"" |
-  \ endif
+"autocmd BufReadPost *
+"  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+"  \   exe "normal! g`\"" |
+"  \ endif
 
 
 " Don't close window when deleting a buffer
