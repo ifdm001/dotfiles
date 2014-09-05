@@ -17,4 +17,3 @@ export GTEST_DIR="/home/imanol/Projects/gtest-1.7.0"
 export GOROOT="/usr/lib/go"
 export GOPATH="/home/imanol/Projects/go"
 export PATH=$PATH:$GOROOT/bin
-

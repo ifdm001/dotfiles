@@ -41,19 +41,13 @@ typeset -gU cdpath fpath mailpath path
 #   $cdpath
 # )
 
-# 256 color terminal
-export TERM=xterm-256color
 
 # screen-256color for tmux
 [ -n "$TMUX" ] && export TERM=screen-256color
 
-# Go
-export GOPATH=$HOME/Projects/go
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  $HOME/bin
-  $GOPATH/bin
   /usr/local/{bin,sbin}
   $path
 )
