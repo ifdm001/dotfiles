@@ -134,8 +134,8 @@ set matchtime=4
 " Indentation
 set expandtab
 set smarttab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
 set autoindent
 set smartindent
 set wrap
@@ -151,7 +151,7 @@ autocmd FileType go setlocal shiftwidth=2 tabstop=2 noexpandtab
 autocmd FileType snippets setlocal shiftwidth=2 tabstop=2 noexpandtab
 
 " Display extra whitespace
-set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set listchars=eol:$,tab:>-,extends:>,precedes:<
 set list
 
 " Backspace
