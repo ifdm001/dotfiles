@@ -21,6 +21,9 @@ export EDITOR='vim'
 export VISUAL='vim'
 export PAGER='less'
 
+#Environments
+M2_HOME=/opt/maven/
+
 #
 # Language
 #
