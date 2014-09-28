@@ -22,8 +22,8 @@ export VISUAL='vim'
 export PAGER='less'
 
 #Environments
-M2_HOME=/opt/maven
-JBOSS_HOME=/opt/EAP-6.3.0/jboss-eap-6.3
+export M2_HOME=/opt/maven
+export JBOSS_HOME=/opt/EAP-6.3.0/jboss-eap-6.3
 
 #
 # Language
